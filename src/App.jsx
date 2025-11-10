@@ -6,7 +6,8 @@ import Recent from "./Recent";
 import About from "./About";
 import Contacts from "./Contacts";
 import Projects from "./Projects";
-import { useMemo, useState } from "react";
+import {notebooks} from "./data/Notebooks";
+import {useMemo, useState} from "react";
 
 function App(){
   const [query, setQuery] = useState("");
